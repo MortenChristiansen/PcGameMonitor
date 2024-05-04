@@ -1,2 +1,5 @@
-﻿Console.WriteLine("Hello, World!");
+﻿using PcGameMonitor.LibreHardwareMonitor;
+
+HardwareInfo.PrintGpuTemperatures();
+
 Console.ReadLine();
